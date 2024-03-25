@@ -16,7 +16,7 @@ function App() {
   return (
     <>
      <Header></Header>
-    <div className='md:flex max-w-7xl mx-auto'>
+    <div className='md:flex max-w-7xl my-2 mx-auto'>
       <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
       <Bookmarks bookmarks={bookmarks}></Bookmarks>
     </div>
@@ -25,3 +25,4 @@ function App() {
 }
 
 export default App
+
